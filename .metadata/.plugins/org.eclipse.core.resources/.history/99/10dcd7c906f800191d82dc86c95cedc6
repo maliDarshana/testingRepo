@@ -1,0 +1,39 @@
+package org.testing.test1.apilinks;
+
+
+import java.util.List;
+
+import javax.print.attribute.standard.Media;
+import javax.websocket.server.PathParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.HeaderParam;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.testing.test1.model.Model1POJO;
+import org.testing.test1.service.ServiceClass1;
+
+@Path("/MyText")
+public class TestingClass1 {
+
+	ServiceClass1 serv=new ServiceClass1();
+	
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	@Path("/getName")
+	public List<Model1POJO> getMessage(){		
+		
+		return serv.getNames();
+	}
+	
+	@POST
+	@Path("/addName")
+	public List<Model1POJO> addInData(@PathParam("name") String name,@PathParam("gender") String gender){
+		serv.addName(name, gender);	
+		return serv.getNames();
+	}
+	
+	 
+}

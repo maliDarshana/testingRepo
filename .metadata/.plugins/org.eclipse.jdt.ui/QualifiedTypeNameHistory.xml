@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.testing.test1.database.DatabaseConnection"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.testing.test1.service.ServiceClass1"/>
+<fullyQualifiedTypeName name="javax.ws.rs.MatrixParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.HeaderParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.CookieParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.UriInfo"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Context"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.HttpHeaders"/>
+<fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.BeanParam"/>
+<fullyQualifiedTypeName name="org.testing.test1.parameteres.ParamPOJO"/>
+<fullyQualifiedTypeName name="org.testing.test1.apilinks.subResource.SubResourceClass"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="org.testing.test1.model.Model1POJO"/>
+<fullyQualifiedTypeName name="com.sun.research.ws.wadl.Response"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response.Status"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.test.soapTest.serviceImpl.ServiceClass1"/>
+</qualifiedTypeNameHistroy>
